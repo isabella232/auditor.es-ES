@@ -4,67 +4,67 @@ seo-description: Crear una nueva auditoría en Auditor
 seo-title: Crear una nueva auditoría en Auditor
 title: Crear una nueva auditoría en Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Create a new audit{#create-a-new-audit}
+# Crear una nueva auditoría {#create-a-new-audit}
 
 >[!NOTE]
 >
->Los usuarios están limitados a una auditoría que se ejecuta a la vez. Se produce un error si intenta iniciar una auditoría con la misma configuración que la que se está ejecutando. Puede utilizar el vínculo del mensaje de error si desea cancelar la auditoría que se está ejecutando para poder crear una nueva.
+>Los usuarios están limitados a realizar una auditoría a la vez. Si intenta iniciar una auditoría con la misma configuración que la que se está ejecutando, se produce un error. Puede utilizar el enlace del mensaje de error si desea cancelar la auditoría que se está realizando para crear una nueva.
 
-Si lo desea, utilice el vínculo de la parte inferior de la página para acceder a una cuenta de prueba gratuita con todas las funciones con ObservePoint.
+Si lo desea, utilice el enlace de la parte inferior de la página para acceder a una cuenta de prueba gratuita con todas las funciones con ObservePoint.
 
 1. En la lista Auditor, haga clic en **[!UICONTROL Nueva auditoría]**.
 
-   The [!DNL New Audit] screen opens.
+   Se abre la pantalla [!DNL New Audit].
 
    ![](assets/config.png)
 
-1. (Requerido) Asigne un nombre a la auditoría.
+1. (Obligatorio) Nombrar la auditoría.
 
-   El nombre puede tener hasta 250 caracteres.
-1. (Requerido) Especifique la dirección URL inicial.
+   El nombre puede contener hasta 250 caracteres.
+1. (Obligatorio) Especifique la dirección URL de inicio.
 
-   Se requiere el protocolo al especificar la dirección URL inicial. La dirección URL de inicio es la página donde la auditoría comienza a rastrear. Una vez iniciada, Auditor rastrea hasta 500 páginas, siguiendo los vínculos que comienzan en la dirección URL de inicio. Consulte [Incluir y excluir filtros](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257) para obtener más información. La dirección URL inicial puede tener hasta 250 caracteres.
-
-   >[!NOTE]
-   >
-   >En algunos casos, puede tomar hasta 48 horas completar un análisis de 500 páginas.
-
-1. Especifique una o varias direcciones de correo electrónico para las notificaciones sobre esta auditoría.
-
-   Puede especificar varios correos electrónicos separando cada dirección con una coma. El solicitante recibe una notificación predeterminada. Las direcciones de correo electrónico se validan en tiempo real. Si introduce una dirección no válida, se le notificará en la pantalla.
-
-   Cada correo electrónico está limitado a no más de 250 caracteres, incluido el final de dominio (por ejemplo, .com).
-1. Especifique Incluir filtros.
-
-   Este campo puede contener direcciones URL exactas, direcciones URL parciales o expresiones regulares. Utilice este campo para los criterios con los que desea que todas las direcciones URL coincidan. Las direcciones URL rastreadas que no coincidan con los criterios de inclusión de filtros no se incluirán en los resultados de la auditoría.
-
-   Puede introducir los directorios que desea que analice la auditoría. O bien, puede realizar una auditoría de varios dominios o de referencia automática, donde debe iniciar la auditoría en un dominio y finalizar en otro. Para ello, escriba los dominios que desee recorrer; para patrones de URL complejos, utilice una expresión regular.
+   Es necesario el protocolo cuando se especifica la dirección URL inicial. La dirección URL de inicio es la página donde la auditoría empieza a rastrear. Una vez iniciada, Auditor rastrea hasta 500 páginas, siguiendo los enlaces que empiezan en la dirección URL de inicio. Para obtener más información, consulte [Filtros de inclusión y exclusión](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257). La URL de inicio puede contener hasta 250 caracteres.
 
    >[!NOTE]
    >
-   >Si incluye una página en los filtros, pero no está conectada a la dirección URL de inicio, o el Auditor explora 500 páginas antes de llegar a esa página, la página no se analizará y no se incluirá en los resultados de la prueba.
+   >En algunos casos, para finalizar un análisis de 500 páginas es posible que se necesiten hasta 48 horas.
 
-   Los filtros de inclusión están limitados a 1000 caracteres por línea.
+1. Especifique una o varias direcciones de correo electrónico para las notificaciones referentes a esta auditoría.
 
-   Consulte [Incluir lista](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f) para obtener más información.
-1. Especifique Excluir filtros.
+   Puede especificar varias direcciones de correo electrónico separadas con comas. El solicitante recibe una notificación de forma predeterminada. Las direcciones de correo electrónico se validan en tiempo real. Si introduce una dirección no válida, se muestra en la pantalla.
 
-   La lista Excluir evita que se auditen las direcciones URL. Use direcciones URL exactas, direcciones URL parciales o expresiones regulares, como haría en la lista de inclusión.
+   Cada correo electrónico está limitado a un máximo de 250 caracteres, incluido el final de dominio (por ejemplo, .com).
+1. Especifique los filtros de inclusión.
 
-   Una práctica común es excluir un vínculo de cierre de sesión si la auditoría tiene una sesión de usuario (por ejemplo: `/logout`, es decir, cualquier dirección URL que contenga la cadena `/logout`).
+   Este campo puede contener direcciones URL exactas, direcciones URL parciales o expresiones regulares. Utilice este campo para especificar los criterios que quiere que tengan todas las direcciones URL. Las direcciones URL rastreadas que no coinciden con los criterios de los filtros de inclusión no se incluyen en los resultados de la auditoría.
 
-   Los filtros de exclusión están limitados a 1000 caracteres por línea.
+   Puede introducir los directorios que quiere que analice la auditoría. También puede realizar una auditoría de varios dominios o de referencia automática, dónde debe iniciar la auditoría en un dominio y finalizarla en otro. Para ello, escriba los dominios que quiere recorrer; para patrones de URL complejos, utilice una expresión regular.
 
-   Consulte [Excluir lista](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9) para obtener más información.
-1. (Opcional) Si lo desea, puede probar los filtros de inclusión y exclusión y probar las direcciones URL.
+   >[!NOTE]
+   >
+   >Si incluye una página en los filtros que no está conectada a la dirección URL de inicio, o Auditor explora 500 páginas antes de llegar a esa página, la página no se analiza y no se incluye en los resultados de la prueba.
 
-   Introduzca los filtros y las direcciones URL y, a continuación, haga clic en **[!UICONTROL Aplicar]** para ejecutar la prueba.
+   Los filtros de inclusión tienen un límite de 1000 caracteres por línea.
+
+   Para obtener más información, consulte [Lista de inclusión](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f).
+1. Especifique los filtros de exclusión.
+
+   La lista de exclusión evita que se auditen las direcciones URL. Utilice direcciones URL exactas, direcciones URL parciales o expresiones regulares, tal y como haría en la lista de inclusión.
+
+   Si la auditoría tiene una sesión de usuario, suele excluirse un enlace de cierre de sesión (por ejemplo: `/logout`, es decir, cualquier dirección URL que contenga la cadena `/logout`).
+
+   Los filtros de exclusión tienen un límite de 1000 caracteres por línea.
+
+   Para obtener más información, consulte [Lista de exclusión](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9).
+1. (Opcional) Si lo desea, puede probar los filtros de inclusión y exclusión y comprobar las direcciones URL.
+
+   Introduzca los filtros y las direcciones URL y haga clic en **[!UICONTROL Aplicar]** para realizar la prueba.
 
    ![](assets/test-advanced-filters.png)
 
