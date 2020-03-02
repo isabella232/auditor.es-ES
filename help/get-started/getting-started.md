@@ -4,13 +4,13 @@ seo-description: Introducción a Auditor
 seo-title: Primeros pasos
 title: Primeros pasos
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Primeros pasos{#getting-started}
+# Primeros pasos {#getting-started}
 
 ## Primeros pasos {#task-1024e94b5948413295c9698e62165a04}
 
@@ -18,9 +18,9 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-La primera vez que utilice Auditor, debe completar y aceptar el acuerdo del Auditor. Auditor se ha desarrollado como un esfuerzo cooperativo entre Adobe y ObservePoint. Los usuarios de Auditor pueden utilizar la funcionalidad de ObservePoint limitada sin costo adicional. Para utilizar Auditor, debe optar por las comunicaciones de ObservePoint.
+La primera vez que utilice Auditor, debe rellenar y aceptar el acuerdo de Auditor. Auditor es una solución desarrollada conjuntamente entre Adobe y ObservePoint. Los usuarios de Auditor pueden utilizar la funcionalidad de ObservePoint limitada gratuitamente. Para utilizar Auditor, debe registrarse en las comunicaciones de ObservePoint.
 
-## Ejecución del primer examen {#task-b211597afed343cfa238443fcf7c6041}
+## Realización del primer análisis {#task-b211597afed343cfa238443fcf7c6041}
 
 1. Haga clic en el botón de menú en la esquina superior derecha de la barra de navegación de Adobe Experience Cloud y haga clic en **[!UICONTROL Activación]**.
 
@@ -28,13 +28,13 @@ La primera vez que utilice Auditor, debe completar y aceptar el acuerdo del Audi
 
 1. Seleccione Auditor y acepte las Condiciones de uso.
 
-   La página Auditor le proporciona un tablero de análisis anteriores, junto con la opción de ejecutar un nuevo análisis.
+   La página Auditor le ofrece un tablero de análisis anteriores, junto con la opción de realizar un nuevo análisis.
 
    ![](assets/home.png)
 
 1. Haga clic en **[!UICONTROL Nueva auditoría]**.
 
-   Para ejecutar un nuevo análisis, haga clic en **[!UICONTROL Nueva auditoría]** en la esquina superior derecha de la pantalla.
+   Para realizar un nuevo análisis, haga clic en **[!UICONTROL Nueva auditoría]** en la esquina superior derecha de la pantalla.
 
    ![](assets/new-audit-button.png)
 
@@ -45,10 +45,10 @@ La primera vez que utilice Auditor, debe completar y aceptar el acuerdo del Audi
    ![](assets/config.png)
 
    Para obtener una descripción de todas las opciones de configuración, consulte [Crear una nueva auditoría](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d).
-1. Vea el informe.
+1. Ver el informe.
 
-   Cuando reciba el mensaje de correo electrónico que le informa de que se ha completado el análisis, haga clic en el vínculo para [ver el informe](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) y empezar a comprender las oportunidades de mejorar la implementación y obtener más valor de las soluciones de Adobe.
+   Cuando reciba el mensaje de correo electrónico de finalización del análisis, haga clic en el enlace para [ver el informe](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) y saber cómo mejorar la implementación y obtener más rendimiento de las soluciones de Adobe.
 
-   También puede hacer clic en el nombre de la auditoría en la página [](../get-started/audit-list.md) Auditor para ver el estado de la auditoría y ver el informe una vez finalizada la auditoría.
+   También puede hacer clic en el nombre de la auditoría en la [página Auditor](../get-started/audit-list.md) para ver el estado de la auditoría y consultar el informe una vez finalizada la auditoría.
 
    ![](assets/report.png)
