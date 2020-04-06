@@ -4,8 +4,8 @@ seo-description: Esta referencia proporciona más información sobre las pruebas
 seo-title: Referencia de prueba
 title: Referencia de prueba
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: ht
-source-git-commit: 0c116f699b697ad010ee074ac67159a49ec09ccd
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -46,7 +46,3 @@ Actualmente, las siguientes soluciones de Adobe no están incluidas en las prueb
 * Audience Manager
 * Campaign
 * Launch
-
-## Categorías de prueba {#section-630181db21ef4eec9ce6a13a0482bb55}
-
-Esta referencia clasifica las pruebas en las siguientes categorías:
