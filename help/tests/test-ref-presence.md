@@ -4,8 +4,8 @@ seo-description: Esta referencia proporciona más información sobre las pruebas
 seo-title: Presencia de etiquetas
 title: Presencia de etiquetas
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ Auditor evalúa si la etiqueta existe y si está en el lugar correcto en el cód
    <td colname="col3"> <p>Implemente el píxel del segmento de Advertising Cloud con la extensión de Launch de Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analytics: Cargado en DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/es_ES/sc/implement/" format="https" scope="external"> Más información</a> </p> </td> 
+   <td colname="col1"> <p><b>Analytics: Cargado en DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html" format="https" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> No se ha detectado la etiqueta de Adobe Analytics. </p> </td> 
    <td colname="col3"> <p>Instale la última versión de Analytics. </p> </td> 
   </tr> 
