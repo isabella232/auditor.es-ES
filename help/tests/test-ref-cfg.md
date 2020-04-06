@@ -4,8 +4,8 @@ seo-description: Esta referencia proporciona más información sobre las pruebas
 seo-title: Configuración
 title: Configuración
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -53,7 +53,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics: Instanciado en DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/impl_testing.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Analytics: Instanciado en DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> El código de Adobe Analytics no está instalado o no puede ejecutarse. Devuelve el valor 0 cuando no se encuentra ninguna página web con código de Analytics. </p> </td> 
    <td colname="col3"> <p>Compruebe que la etiqueta de Analytics está implementada en la página y no está bloqueada por las siguientes actividades de script. </p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics: Instanciado una vez</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/es_ES/sc/implement/" format="https" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Analytics: Instanciado una vez</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html" format="https" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> El código de Adobe Analytics se ha detectado más de una vez en la página. Devuelve el valor 0 cuando no se encuentra ninguna página web con código de Analytics. </p> </td> 
    <td colname="col3"> <p>Compruebe que solo hay una etiqueta de Analytics en la página. </p> </td> 
   </tr> 
@@ -69,7 +69,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics: Última versión</b> </p> <p>Peso: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Analytics: Última versión</b> </p> <p>Peso: 3 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> Las páginas no ejecutan la última versión de la biblioteca de códigos de Analytics. Las bibliotecas de códigos que alimentan las tecnologías de Experience Cloud se actualizan y modifican constantemente para aprovechar las mejoras de rendimiento y ofrecer las últimas funciones. Devuelve el valor 0 cuando no se encuentra ninguna página web con código de Analytics. </p> </td> 
    <td colname="col3"> <p>Instale la última versión de la biblioteca de Analytics. </p> </td> 
   </tr> 
@@ -77,7 +77,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM: Las etiquetas de terceros se cargan asincrónicamente después de DOM ready</b> </p> <p>Peso: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/es_ES/dtm/load_order.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>DTM: Las etiquetas de terceros se cargan asincrónicamente después de DOM ready</b> </p> <p>Peso: 3 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/dtm/using/resources/load-order.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p>Para ofrecer un equilibrio entre una buena experiencia de usuario y la obtención de datos precisos, las etiquetas de terceros deben activarse en DOM ready. Esto garantizará que las secuencias de comandos de seguimiento se ejecuten sin afectar a la funcionalidad del sitio. </p> </td> 
    <td colname="col3"> <p>Resuelva este problema ajustando todas las normas que ejecutan píxeles de terceros para que se activen en DOM Ready. </p> </td> 
   </tr> 
@@ -85,7 +85,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Servicio de Experience Cloud ID: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/es_ES/dtm/macid.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Servicio de Experience Cloud ID: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/dtm/using/tools/macid.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> Las páginas no están ejecutando la versión más reciente de la biblioteca de códigos del servicio de ID de visitante, <span class="codeph"> visitorAPI.js</span>. Las bibliotecas de códigos que alimentan las tecnologías de Experience Cloud se actualizan y modifican constantemente para aprovechar las mejoras de rendimiento y ofrecer las últimas funciones. </p> </td> 
    <td colname="col3"> <p>Instale la última versión de la biblioteca del servicio de ID de visitante. </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Launch: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p>Estas páginas no ejecutan la última versión de la biblioteca de códigos de Launch (Turbine). Las bibliotecas de códigos que alimentan las tecnologías de Experience Cloud se actualizan y modifican constantemente para aprovechar las mejoras de rendimiento y ofrecer las últimas funciones. </p> </td> 
    <td colname="col3"> <p> Actualice la biblioteca de Launch reconstruyendo y publicando la biblioteca de Launch. </p> </td> 
   </tr> 
@@ -101,7 +101,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/dtm/update-target-tool.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Target: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> Las páginas no ejecutan la última versión de la biblioteca de códigos de Target. Las bibliotecas de códigos que alimentan las tecnologías de Experience Cloud se actualizan y modifican constantemente para aprovechar las mejoras de rendimiento y ofrecer las últimas funciones. </p> </td> 
    <td colname="col3"> <p>Instale la última versión de la biblioteca de Target. </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target: mboxDefault es anterior a mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Target: mboxDefault es anterior a mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p>El uso correcto de <span class="codeph"> mboxCreate</span> es similar al siguiente: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Customer content--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>Recuerde incluir una etiqueta <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> antes de aplicar <span class="codeph"> mboxCreate()</span>. at.js no añadirá una para usted. </p> </td> 
   </tr> 
@@ -117,7 +117,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target: DOCTYPE válido</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Target: DOCTYPE válido</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/help/en/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> Se ha detectado un DOCTYPE no válido. En este escenario no se activará ningún mbox. </p> <p>Para at.js, DOCTYPE debe estar en modo Estándares o Target no funcionará. </p> </td> 
    <td colname="col3"> <p>Actualice DOCTYPE en la página. </p> </td> 
   </tr> 
