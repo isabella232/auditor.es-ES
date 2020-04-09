@@ -4,7 +4,7 @@ seo-description: Esta referencia proporciona más información sobre las pruebas
 seo-title: Configuración
 title: Configuración
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
@@ -30,7 +30,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud: Los nombres de conversión solo utilizan caracteres alfanuméricos</b> </p> <p>Peso: 3 </p> </td> 
-   <td colname="col2"> <p>El parámetro <span class="codeph"> ev_conversion_property_name</span> solo debe contener valores numéricos y decimales, EXCEPTO para el parámetro “<span class="codeph"> ev_transid</span>” (el valor <span class="codeph"> ev_transid</span> puede contener valores numéricos o de texto) </p> <p>Busque píxeles <span class="codeph"> everesttech.net</span> que contengan un parámetro de URL que empiece por <span class="codeph"> ev_</span>. </p> <p>Ejemplo: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
+   <td colname="col2"> <p>El parámetro <span class="codeph"> ev_conversion_property_name</span> solo debe contener valores numéricos y decimales, EXCEPTO para el parámetro “<span class="codeph"> ev_transid</span>” (el valor <span class="codeph"> ev_transid</span> puede contener valores numéricos o de texto) </p> <p>Busque píxeles <span class="codeph"> everesttech.net</span> que contengan un parámetro de URL que empiece por <span class="codeph"> ev_</span>. </p> <p>Ejemplo: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
    <td colname="col3"> <p> Compruebe que los parámetros de la propiedad de transacción solo contienen valores numéricos y decimales. </p> <p> <p>Advertencia: Cualquier otro tipo de valor puede causar pérdida de datos. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud: Los nombres de conversión utilizan caracteres seguros para URL</b> </p> <p>Peso: 3 </p> </td> 
-   <td colname="col2"> <p> Los nombres de propiedades de conversión no deben contener un signo &amp; o un signo de interrogación. </p> <p> Ejemplo: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
+   <td colname="col2"> <p> Los nombres de propiedades de conversión no deben contener un signo &amp; o un signo de interrogación. </p> <p> Ejemplo: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>Compruebe que los parámetros de propiedad de transacción no contienen un signo &amp; o un signo de interrogación no codificado. Estos signos rompen el formato de la dirección URL. </p> <p> <p>Advertencia: Los parámetros de propiedad que contienen un signo de interrogación o un signo de interrogación no codificado (por ejemplo: <span class="codeph"> ev_formComplete?=1</span> o <span class="codeph"> ev_formComplete&amp;Submit=1</span>), puede causar la pérdida de datos. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud: ID de transacción implementado correctamente</b> </p> <p>Peso: 1 </p> </td> 
-   <td colname="col2"> <p> El nombre de propiedad <span class="codeph"> ev_transid=</span> no debe estar vacío. </p> <p>Ejemplo: </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
+   <td colname="col2"> <p> El nombre de propiedad <span class="codeph"> ev_transid=</span> no debe estar vacío. </p> <p>Ejemplo: </p> <p> <span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>El nombre de propiedad <span class="codeph"> ev_transid=</span> debe contener un valor (<span class="codeph"> ev_transid=</span>). Si no se introduce un valor, puede causar la pérdida de datos de transacción. Asigne un valor al <span class="codeph"> ev_transid=</span> o elimine el parámetro desde el píxel. </p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Launch: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p>Estas páginas no ejecutan la última versión de la biblioteca de códigos de Launch (Turbine). Las bibliotecas de códigos que alimentan las tecnologías de Experience Cloud se actualizan y modifican constantemente para aprovechar las mejoras de rendimiento y ofrecer las últimas funciones. </p> </td> 
    <td colname="col3"> <p> Actualice la biblioteca de Launch reconstruyendo y publicando la biblioteca de Launch. </p> </td> 
   </tr> 
@@ -101,7 +101,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Target: Última versión</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> Las páginas no ejecutan la última versión de la biblioteca de códigos de Target. Las bibliotecas de códigos que alimentan las tecnologías de Experience Cloud se actualizan y modifican constantemente para aprovechar las mejoras de rendimiento y ofrecer las últimas funciones. </p> </td> 
    <td colname="col3"> <p>Instale la última versión de la biblioteca de Target. </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target: mboxDefault es anterior a mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Target: mboxDefault es anterior a mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p>El uso correcto de <span class="codeph"> mboxCreate</span> es similar al siguiente: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Customer content--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>Recuerde incluir una etiqueta <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> antes de aplicar <span class="codeph"> mboxCreate()</span>. at.js no añadirá una para usted. </p> </td> 
   </tr> 
@@ -117,7 +117,7 @@ Las pruebas de configuración analizan la configuración, los valores o los posi
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target: DOCTYPE válido</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/help/en/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Target: DOCTYPE válido</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/help/es-ES/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> Se ha detectado un DOCTYPE no válido. En este escenario no se activará ningún mbox. </p> <p>Para at.js, DOCTYPE debe estar en modo Estándares o Target no funcionará. </p> </td> 
    <td colname="col3"> <p>Actualice DOCTYPE en la página. </p> </td> 
   </tr> 
