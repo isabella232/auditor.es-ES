@@ -1,11 +1,14 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Auditor Preguntas frecuentes
+seo-title: Preguntas frecuentes sobre Auditor
 title: Preguntas frecuentes sobre Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ Este artículo incluye las respuestas a las preguntas frecuentes sobre Adobe Exp
 * [¿Qué información incluye un informe?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [¿Hasta qué punto se puede procesar esa información?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [¿Auditor puede auditar la tecnología que no es de Adobe?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [¿Puedo autorizar mis direcciones IP para permitir la digitalización de páginas protegidas con un inicio de sesión?](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [¿Puedo aprobar mis direcciones IP para permitir el análisis de páginas...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [¿Auditor utiliza los mismos intervalos de IP que Observepoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## ¿Qué es Auditor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -126,7 +129,7 @@ Todas las recomendaciones que ofrece Auditor le ayudan a solucionar un problema 
 
 No. Sin embargo, la opción Full ObservePoint permite auditar y controlar todas las etiquetas y tecnologías de marketing. Como cliente de Adobe, dispone de una cuenta de prueba gratuita. Para acceder a su cuenta de prueba, visite [Página de Auditor de ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## ¿Puedo autorizar mis direcciones IP para permitir la digitalización de páginas protegidas con un inicio de sesión? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Actualmente, esta funcionalidad solo está incluida en la opción Full ObservePoint.
 
