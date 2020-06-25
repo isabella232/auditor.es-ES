@@ -4,11 +4,11 @@ seo-description: 'null'
 seo-title: Preguntas frecuentes sobre Auditor
 title: Preguntas frecuentes sobre Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Este artículo incluye las respuestas a las preguntas frecuentes sobre Adobe Exp
 * [¿Qué información incluye un informe?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [¿Hasta qué punto se puede procesar esa información?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [¿Auditor puede auditar la tecnología que no es de Adobe?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [¿Puedo aprobar mis direcciones IP para permitir el análisis de páginas...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [¿Puedo autorizar mis direcciones IP para permitir la digitalización de páginas...?](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [¿Auditor utiliza los mismos intervalos de IP que Observepoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## ¿Qué es Auditor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -41,7 +41,7 @@ Todas las organizaciones de clientes de Adobe Experience Cloud disponen de acces
 
 ## ¿Cómo puedo acceder a Auditor? {#section-531ff85f94384831a89cbb4109549daf}
 
-Inicie sesión en [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), haga clic en la opción Auditor en **[!UICONTROL Activación]**, en la barra de navegación superior. También puede ir directamente a [https://auditor.adobe.com](https://auditor.adobe.com).
+Inicie sesión en [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), haga clic en la opción Auditor en **[!UICONTROL Activation]**, en la barra de navegación superior. También puede ir directamente a [https://auditor.adobe.com](https://auditor.adobe.com).
 
 ## ¿Qué tecnologías de Adobe clasifica Auditor? {#section-52833b71c05448aaae508e6070a387f5}
 
@@ -120,7 +120,7 @@ Todas las recomendaciones que ofrece Auditor le ayudan a solucionar un problema 
 <table id="table_EE67775088344BDAA5126268072D6089"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>última devolución de llamada pageBottom</b> </p> <p>Para una correcta implementación de la DTM, se necesita una función _satellite.pageBottom(). Para garantizar la funcionalidad adecuada de la DTM, añada la secuencia de comandos en línea justo antes de la etiqueta &lt;/body&gt; de cierre. </p> </td> 
+   <td colname="col1"> <p><b>Última devolución de llamada pageBottom</b> </p> <p>Para una correcta implementación de la DTM, se necesita una función _satellite.pageBottom(). Para garantizar la funcionalidad adecuada de la DTM, añada la secuencia de comandos en línea justo antes de la etiqueta &lt;/body&gt; de cierre. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,7 +129,7 @@ Todas las recomendaciones que ofrece Auditor le ayudan a solucionar un problema 
 
 No. Sin embargo, la opción Full ObservePoint permite auditar y controlar todas las etiquetas y tecnologías de marketing. Como cliente de Adobe, dispone de una cuenta de prueba gratuita. Para acceder a su cuenta de prueba, visite [Página de Auditor de ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## ¿Puedo autorizar mis direcciones IP para permitir la digitalización de páginas protegidas con un inicio de sesión? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 Actualmente, esta funcionalidad solo está incluida en la opción Full ObservePoint.
 
