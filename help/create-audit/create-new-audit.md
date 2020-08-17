@@ -4,8 +4,11 @@ seo-description: Crear una nueva auditoría en Auditor
 seo-title: Crear una nueva auditoría en Auditor
 title: Crear una nueva auditoría en Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Si lo desea, utilice el enlace de la parte inferior de la página para acceder a
    El nombre puede contener hasta 250 caracteres.
 1. (Obligatorio) Especifique la dirección URL de inicio.
 
-   Es necesario el protocolo cuando se especifica la dirección URL inicial. La dirección URL de inicio es la página donde la auditoría empieza a rastrear. Una vez iniciada, Auditor rastrea hasta 500 páginas, siguiendo los enlaces que empiezan en la dirección URL de inicio. Para obtener más información, consulte [Filtros de inclusión y exclusión](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257). La URL de inicio puede contener hasta 250 caracteres.
+   Es necesario el protocolo cuando se especifica la dirección URL inicial. La dirección URL de inicio es la página donde la auditoría empieza a rastrear. Una vez iniciada, Auditor rastrea hasta 500 páginas, siguiendo los enlaces que empiezan en la dirección URL de inicio. Para obtener más información, consulte [Filtros de inclusión y exclusión](../create-audit/filters.md). La URL de inicio puede contener hasta 250 caracteres.
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ Si lo desea, utilice el enlace de la parte inferior de la página para acceder a
 
    Los filtros de inclusión tienen un límite de 1000 caracteres por línea.
 
-   Para obtener más información, consulte [Lista de inclusión](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f).
+   Para obtener más información, consulte [Lista de inclusión](../create-audit/filters.md).
 1. Especifique los filtros de exclusión.
 
    La lista de exclusión evita que se auditen las direcciones URL. Utilice direcciones URL exactas, direcciones URL parciales o expresiones regulares, tal y como haría en la lista de inclusión.
@@ -61,7 +64,7 @@ Si lo desea, utilice el enlace de la parte inferior de la página para acceder a
 
    Los filtros de exclusión tienen un límite de 1000 caracteres por línea.
 
-   Para obtener más información, consulte [Lista de exclusión](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9).
+   Para obtener más información, consulte [Lista de exclusión](../create-audit/filters.md).
 1. (Opcional) Si lo desea, puede probar los filtros de inclusión y exclusión y comprobar las direcciones URL.
 
    Introduzca los filtros y las direcciones URL y haga clic en **[!UICONTROL Aplicar]** para realizar la prueba.
