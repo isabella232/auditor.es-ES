@@ -4,8 +4,11 @@ seo-description: Esta referencia proporciona más información sobre las pruebas
 seo-title: Presencia de etiquetas
 title: Presencia de etiquetas
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 100%
 
 ---
 
@@ -76,7 +79,7 @@ Auditor evalúa si la etiqueta existe y si está en el lugar correcto en el cód
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Servicio de Experience Cloud ID: presencia de cookies</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Servicio de Experience Cloud ID: presencia de cookies</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/dtm/using/tools/macid.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> No se ha encontrado la cookie <span class="codeph"> AMCV_</span>. Debe crear una instancia de un objeto visitante desde el código<span class="codeph"> VisitorAPI.js</span>. </p> </td> 
    <td colname="col3"> <p> Si se trata de una aplicación de DTM, compruebe que el ID de AdobeOrg se ha introducido correctamente en la herramienta ECID. </p> </td> 
   </tr> 
