@@ -1,6 +1,9 @@
 ---
-source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: ht
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '281'
+ht-degree: 100%
 
 ---
 # Contribución
@@ -20,7 +23,7 @@ Comience por enviar un problema. Los supervisores de este proyecto trabajan para
 ## Acuerdo de licencia de colaborador
 
 Todas las contribuciones de terceros a este proyecto deben estar acompañadas por un contrato de licencia
-para colaboradores firmado, que da permiso a Adobe para redistribuir las contribuciones como parte del proyecto. [Firme nuestro Acuerdo de colaboración](http://opensource.adobe.com/cla.html). Un usuario necesita enviar un único acuerdo de colaboración de Adobe, por lo que, si lo ha enviado anteriormente, ¡ya puede empezar!
+para colaboradores firmado, que da permiso a Adobe para redistribuir las contribuciones como parte del proyecto. [Firme nuestro Acuerdo de colaboración](https://opensource.adobe.com/cla.html). Un usuario necesita enviar un único acuerdo de colaboración de Adobe, por lo que, si lo ha enviado anteriormente, ¡ya puede empezar!
 
 ## Revisiones de código
 
