@@ -4,8 +4,11 @@ seo-description: Introducción a Auditor
 seo-title: Primeros pasos
 title: Primeros pasos
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -44,10 +47,10 @@ La primera vez que utilice Auditor, debe rellenar y aceptar el acuerdo de Audito
 
    ![](assets/config.png)
 
-   Para obtener una descripción de todas las opciones de configuración, consulte [Crear una nueva auditoría](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d).
+   Para obtener una descripción de todas las opciones de configuración, consulte [Crear una nueva auditoría](../create-audit/create-new-audit.md).
 1. Ver el informe.
 
-   Cuando reciba el mensaje de correo electrónico de finalización del análisis, haga clic en el enlace para [ver el informe](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) y saber cómo mejorar la implementación y obtener más rendimiento de las soluciones de Adobe.
+   Cuando reciba el mensaje de correo electrónico de finalización del análisis, haga clic en el enlace para [ver el informe](../reports/scorecard.md) y saber cómo mejorar la implementación y obtener más rendimiento de las soluciones de Adobe.
 
    También puede hacer clic en el nombre de la auditoría en la [página Auditor](../get-started/audit-list.md) para ver el estado de la auditoría y consultar el informe una vez finalizada la auditoría.
 
