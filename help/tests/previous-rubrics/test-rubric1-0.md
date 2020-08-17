@@ -4,8 +4,11 @@ seo-description: 'null'
 seo-title: Prueba de implementación 0.0.8
 title: Prueba de implementación 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: b56d3d2bd79c812fda6a75827d14044d9a8a3b4c
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '1988'
+ht-degree: 100%
 
 ---
 
@@ -42,9 +45,9 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
     <td colname="col1"> <p><b>Advertising Cloud: Etiqueta de solo imagen</b> </p> <p>Peso: 0 </p> </td> 
     <td colname="col2"> <p>El formato de píxel de imagen de Advertising Cloud debe tener uno de los siguientes formatos recomendados: </p> <p> 
       <ul id="ul_D85BE9C8A8654DE890E1A814E3573D86"> 
-       <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph"> http(s)://rtd.tubemogul.com/upi/?sid=&lt;VALOR_HASH&gt;</span> </p> </li> 
-       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;VALOR_HASH&gt;</span> </p> </li> 
-       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
+       <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph">http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
     <td colname="col3"> <p>Actualice los píxeles de Advertising Cloud con las nuevas etiquetas de solo imagen de Advertising Cloud para garantizar que dispone de toda la funcionalidad de Advertising Cloud. </p> <p>Esto puede realizarse fácilmente con la extensión de Launch de Advertising Cloud. </p> </td> 
    </tr> 
@@ -98,12 +101,12 @@ Auditor evalúa las etiquetas comparándolas con otras normas y prácticas recom
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud: Los nombres de conversión utilizan caracteres seguros para URL</b> </p> <p>Peso: 3 </p> </td> 
-    <td colname="col2"> <p> Los nombres de propiedades de conversión no deben contener un signo &amp; o un signo de interrogación. </p> <p> Ejemplo: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
+    <td colname="col2"> <p> Los nombres de propiedades de conversión no deben contener un signo &amp; o un signo de interrogación. </p> <p> Ejemplo: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
     <td colname="col3"> <p>Compruebe que los parámetros de propiedad de transacción no contienen un signo &amp; o un signo de interrogación no codificado. Estos signos rompen el formato de la dirección URL. </p> <p> <p>Advertencia: Los parámetros de propiedad que contienen un signo de interrogación o un signo de interrogación no codificado (por ejemplo: <span class="codeph"> ev_formComplete?=1</span> o <span class="codeph"> ev_formComplete&amp;Submit=1</span>), puede causar la pérdida de datos. </p> </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud: ID de transacción implementado correctamente</b> </p> <p>Peso: 1 </p> </td> 
-    <td colname="col2"> <p> El nombre de propiedad <span class="codeph"> ev_transid=</span> no debe estar vacío. </p> <p>Ejemplo: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
+    <td colname="col2"> <p> El nombre de propiedad <span class="codeph"> ev_transid=</span> no debe estar vacío. </p> <p>Ejemplo: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
     <td colname="col3"> <p>El nombre de propiedad <span class="codeph"> ev_transid=</span> debe contener un valor (<span class="codeph"> ev_transid=</span>). Si no se introduce un valor, puede causar la pérdida de datos de transacción. Asigne un valor al <span class="codeph"> ev_transid=</span> o elimine el parámetro desde el píxel. </p> </td> 
    </tr> 
    <tr> 
@@ -117,7 +120,7 @@ Auditor evalúa las etiquetas comparándolas con otras normas y prácticas recom
     <td colname="col3"> <p>Compruebe que solo hay una etiqueta de Analytics en la página. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics: Última versión</b> </p> <p>Peso: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> Más información</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics: Última versión</b> </p> <p>Peso: 3 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Más información</a> </p> </td> 
     <td colname="col2"> <p> Las páginas no ejecutan la última versión de la biblioteca de códigos de Analytics. Las bibliotecas de códigos que alimentan las tecnologías de Experience Cloud se actualizan y modifican constantemente para aprovechar las mejoras de rendimiento y ofrecer las últimas funciones. Devuelve el valor 0 cuando no se encuentra ninguna página web con código de Analytics. </p> </td>       
     <td colname="col3"> <p>Instale la última versión de la biblioteca de Analytics. </p> </td> 
    </tr> 
@@ -172,7 +175,7 @@ Auditor comprueba que las etiquetas son coherentes en todas las direcciones URL.
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics: versión de código coherente </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> Más información</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics: versión de código coherente </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html" format="html" scope="external"> Más información</a> </p> </td> 
     <td colname="col2"> <p> Se ha encontrado más de una versión del código de Analytics. </p> </td> 
     <td colname="col3"> <p>Reemplazar todas las instancias de Analytics con la versión actual. </p> </td> 
    </tr> 
@@ -236,7 +239,7 @@ Auditor comprueba si existe la etiqueta, si está en el lugar correcto en el có
     <td colname="col3"> <p>Instale la llamada <span class="codeph"> pageBottom</span> de DTM en cada página. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Servicio de Experience Cloud ID: presencia de cookies</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Más información</a> </p> </td> 
+    <td colname="col1"> <p><b>Servicio de Experience Cloud ID: presencia de cookies</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/dtm/using/tools/macid.html" format="html" scope="external"> Más información</a> </p> </td> 
     <td colname="col2"> <p> No se ha encontrado la cookie <span class="codeph"> AMCV_</span>. Debe crear una instancia de un objeto visitante desde el código<span class="codeph"> VisitorAPI.js</span>. </p> </td> 
     <td colname="col3"> <p> Si se trata de una aplicación de DTM, compruebe que el ID de AdobeOrg se ha introducido correctamente en la herramienta ECID. </p> </td> 
    </tr> 
