@@ -4,8 +4,11 @@ seo-description: Los filtros de inclusión limitan los enlaces que puede rastrea
 seo-title: Incluir y Excluir filtros
 title: Incluir y Excluir filtros
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +80,7 @@ El uso del filtro de inclusión predeterminado ofrece un intervalo amplio para q
 
 Los filtros de inclusión pueden contener direcciones URL exactas, direcciones URL parciales o expresiones regulares. Por ejemplo, si la dirección URL inicial es [!DNL http://mysite.com], las siguientes páginas pueden explorarse por defecto (observe los caracteres en negrita):
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-Para patrones de URL complejos, utilice el [comprobador de expresiones regulares de ObservePoint](http://regex.observepoint.com/).
-
-Consulte también el documento de [expresiones regulares comunes de ObservePoint](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint) para comprobar los casos de uso de coincidencia de patrones comunes.
+Para patrones de URL complejos, utilice el [comprobador de expresiones regulares de ObservePoint](https://regex.observepoint.com/).
 
 ## Filtros de exclusión {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ Durante la creación de la auditoría, haga clic en **[!UICONTROL Filtros avanza
 
 ## Documentación de ObservePoint {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Este artículo se ha elaborado con la colaboración de ObservePoint. Para disponer de la última información, consulte la [documentación de ObservePoint](https://help.observepoint.com/articles/2872121-include-and-exclude-filters).
+Este artículo se ha elaborado con la colaboración de ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
