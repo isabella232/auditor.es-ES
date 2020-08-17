@@ -4,8 +4,11 @@ seo-description: Esta referencia proporciona más información sobre las pruebas
 seo-title: Coherencia de etiquetas
 title: Coherencia de etiquetas
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Las pruebas de coherencia de Auditor buscan incoherencias en todas las páginas 
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics: versión de código coherente </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Analytics: versión de código coherente </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p> Se ha encontrado más de una versión del código de Analytics. </p> </td> 
    <td colname="col3"> <p>Reemplazar todas las instancias de Analytics con la versión actual. </p> </td> 
   </tr> 
