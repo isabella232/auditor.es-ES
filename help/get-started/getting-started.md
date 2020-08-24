@@ -4,9 +4,9 @@ seo-description: Introducción a Auditor
 seo-title: Primeros pasos
 title: Primeros pasos
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ La primera vez que utilice Auditor, debe rellenar y aceptar el acuerdo de Audito
 
 ## Realización del primer análisis {#task-b211597afed343cfa238443fcf7c6041}
 
-1. Haga clic en el botón de menú en la esquina superior derecha de la barra de navegación de Adobe Experience Cloud y haga clic en **[!UICONTROL Activación]**.
+1. Haga clic en el botón de menú en la esquina superior derecha de la barra de navegación de Adobe Experience Cloud y haga clic en **[!UICONTROL Activation]**.
 
    ![](assets/activate.png)
 
@@ -35,15 +35,15 @@ La primera vez que utilice Auditor, debe rellenar y aceptar el acuerdo de Audito
 
    ![](assets/home.png)
 
-1. Haga clic en **[!UICONTROL Nueva auditoría]**.
+1. Haga clic en **[!UICONTROL New Audit]**.
 
-   Para realizar un nuevo análisis, haga clic en **[!UICONTROL Nueva auditoría]** en la esquina superior derecha de la pantalla.
+   Para realizar un nuevo análisis, haga clic en **[!UICONTROL New Audit]** en la esquina superior derecha de la pantalla.
 
    ![](assets/new-audit-button.png)
 
 1. Configure el análisis.
 
-   Asigne un nombre a la auditoría, proporcione una URL de inicio y haga clic en **[!UICONTROL Ejecutar informe]**. Una vez finalizado el análisis, recibirá una notificación por correo electrónico.
+   Asigne un nombre a la auditoría, proporcione una URL de inicio y haga clic en **[!UICONTROL Run Report]**. Una vez finalizado el análisis, recibirá una notificación por correo electrónico.
 
    ![](assets/config.png)
 
