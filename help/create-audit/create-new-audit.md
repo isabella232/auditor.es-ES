@@ -4,9 +4,9 @@ seo-description: Crear una nueva auditoría en Auditor
 seo-title: Crear una nueva auditoría en Auditor
 title: Crear una nueva auditoría en Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Si lo desea, utilice el enlace de la parte inferior de la página para acceder a una cuenta de prueba gratuita con todas las funciones con ObservePoint.
 
-1. En la lista Auditor, haga clic en **[!UICONTROL Nueva auditoría]**.
+1. En la lista Auditor, haga clic en **[!UICONTROL New Audit]**.
 
    Se abre la pantalla [!DNL New Audit].
 
@@ -67,8 +67,8 @@ Si lo desea, utilice el enlace de la parte inferior de la página para acceder a
    Para obtener más información, consulte [Lista de exclusión](../create-audit/filters.md).
 1. (Opcional) Si lo desea, puede probar los filtros de inclusión y exclusión y comprobar las direcciones URL.
 
-   Introduzca los filtros y las direcciones URL y haga clic en **[!UICONTROL Aplicar]** para realizar la prueba.
+   Introduzca los filtros y las direcciones URL y haga clic en **[!UICONTROL Apply]** para realizar la prueba.
 
    ![](assets/test-advanced-filters.png)
 
-1. Haga clic en **[!UICONTROL Ejecutar informe]**.
+1. Haga clic en **[!UICONTROL Run Report]**.
