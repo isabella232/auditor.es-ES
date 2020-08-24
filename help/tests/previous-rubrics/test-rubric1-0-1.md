@@ -353,7 +353,7 @@ Auditor evalúa si la etiqueta existe y si está en el lugar correcto en el cód
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Servicio de Experience Cloud ID: presencia de código</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Más información</a> </p> </td> 
+    </draft-comment> <p><b>Servicio de Experience Cloud ID: presencia de código</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Más información</a> </p> </td> 
    <td colname="col2"> <p>No se ha encontrado el código del servicio de Experience Cloud ID. El Experience Cloud ID (ECID) es muy recomendable para garantizarle que obtiene el máximo valor de sus soluciones de Experience Cloud y es fundamental para la administración de ID en todas las soluciones de Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Instale la última versión de ECID. </p> </td> 
   </tr> 
