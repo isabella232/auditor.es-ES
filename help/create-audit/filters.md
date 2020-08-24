@@ -4,11 +4,11 @@ seo-description: Los filtros de inclusión limitan los enlaces que puede rastrea
 seo-title: Incluir y Excluir filtros
 title: Incluir y Excluir filtros
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,10 +102,10 @@ Los filtros de exclusión impiden que se auditen las direcciones URL. Puede util
 
 Puede probar los filtros y las direcciones URL en Auditor.
 
-Durante la creación de la auditoría, haga clic en **[!UICONTROL Filtros avanzados de prueba]**. Introduzca los filtros y las direcciones URL y haga clic en **[!UICONTROL Aplicar]**.
+Durante la creación de la auditoría, haga clic en **[!UICONTROL Test Advanced Filters]**. Introduzca los filtros y las direcciones URL y haga clic en **[!UICONTROL Apply]**.
 
 ![](assets/test-advanced-filters.png)
 
 ## Documentación de ObservePoint {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Este artículo se ha elaborado con la colaboración de ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
+Este artículo se ha elaborado con la colaboración de ObservePoint. Para disponer de la última información, consulte la [documentación de ObservePoint](https://help.observepoint.com/).
