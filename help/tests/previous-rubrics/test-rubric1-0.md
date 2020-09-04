@@ -4,10 +4,10 @@ seo-description: información sobre las pruebas de Adobe Auditor
 seo-title: Prueba de implementación 0.0.8
 title: Prueba de implementación 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: ht
-source-wordcount: '1998'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '1983'
 ht-degree: 100%
 
 ---
@@ -58,9 +58,9 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM: colocación de la llamada de retorno pageBottom</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Más información</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Dynamic Tag Management exige la función<span class="codeph"> _satellite.pageBottom()</span>. </p> <p>Se recomienda que la etiqueta sea la <i>última</i> etiqueta en el <span class="codeph"> &lt;body&gt;</span>. Si se encuentra dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>, puede funcionar, pero como no es una práctica recomendada, podría funcionar incorrectamente o dar resultados inesperados o no deseados. </p> </td> 
     <td colname="col3"> <p>Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta de cierre <span class="codeph"> &lt;/body&gt;</span> para garantizar la correcta funcionalidad de la DTM. </p> </td> 
    </tr> 
@@ -255,9 +255,9 @@ Auditor comprueba si existe la etiqueta, si está en el lugar correcto en el có
    </tr> 
    <tr> 
     <td colname="col1"> <p><b> Target: biblioteca cargada en &lt;head&gt;</b> </p> <p>Peso: 4 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/target/using/implement-target/implementing-target.html" format="html" scope="external"> Más información</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> La biblioteca de Target debe cargarse en la etiqueta <span class="codeph"> &lt;head&gt;</span>. </p> </td> 
     <td colname="col3"> <p> Compruebe que la biblioteca de Target se carga en la etiqueta <span class="codeph"> &lt;head&gt;</span>. </p> </td> 
    </tr> 
