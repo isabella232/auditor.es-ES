@@ -1,5 +1,6 @@
 ---
 cloud: experience-cloud
+solution: Experience Platform, Data Collection
 solution-title: Aprendizaje y asistencia
 solution-hub-url: https://helpx.adobe.com/es/support/experience-cloud/core-services.html
 solution-image: help/assets/experience-cloud-logo-24.png
@@ -7,10 +8,13 @@ getting-started-title: Primeros pasos
 getting-started-url: https://helpx.adobe.com/es/experience-cloud-core-services/get-started.html
 tutorials-title: Tutoriales
 tutorials-url: https://helpx.adobe.com/es/analytics/how-to/adobe-launch-publishing-process.html
-git-repo: https://github.com/AdobeDocs/auditor.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/auditor.es-ES
 index: true
-translation-type: ht
-source-git-commit: c62a63606325b7b4fea6fb5413bd0297326ad824
+translation-type: tm+mt
+source-git-commit: 2e674de10ad6767612d2962789daa015cbfb5946
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
