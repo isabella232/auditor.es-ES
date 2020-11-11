@@ -4,8 +4,11 @@ seo-description: El informe muestra si cada dirección URL aprueba o suspende.
 seo-title: Descargar informe
 title: Descargar informe
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ El informe muestra si cada dirección URL aprueba o suspende.
 
 El informe se puede ver en la página Informe de valoración de la interfaz de usuario. También puede descargar el informe:
 
-1. Desde una lista Auditor o un cuadro de mandos, haga clic en **[!UICONTROL Descargar informe]**.
+1. From the Adobe Experience Platform Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
 
    Como hoja de cálculo o archivo PDF.
 1. Especifique si desea abrir o guardar el archivo.
