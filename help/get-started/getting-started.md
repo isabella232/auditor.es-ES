@@ -1,14 +1,14 @@
 ---
-description: Introducción a Auditor
-seo-description: Introducción a Auditor
+description: Introducción a Adobe Experience Platform Auditor
+seo-description: Introducción a Adobe Experience Platform Auditor
 seo-title: Primeros pasos
 title: Primeros pasos
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-La primera vez que utilice Auditor, debe rellenar y aceptar el acuerdo de Auditor. Auditor es una solución desarrollada conjuntamente entre Adobe y ObservePoint. Los usuarios de Auditor pueden utilizar la funcionalidad de ObservePoint limitada gratuitamente. Para utilizar Auditor, debe registrarse en las comunicaciones de ObservePoint.
+The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] se ha desarrollado como un esfuerzo de cooperación entre [!DNL Adobe] y [!DNL ObservePoint]. Los usuarios de Platform Auditor pueden utilizar la funcionalidad de ObservePoint limitada sin costo adicional. Para utilizar Platform Auditor, debe optar por las comunicaciones de ObservePoint.
 
 ## Realización del primer análisis {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ La primera vez que utilice Auditor, debe rellenar y aceptar el acuerdo de Audito
 
    ![](assets/activate.png)
 
-1. Seleccione Auditor y acepte las Condiciones de uso.
+1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
 
-   La página Auditor le ofrece un tablero de análisis anteriores, junto con la opción de realizar un nuevo análisis.
+   La página Auditor de plataforma le proporciona un panel de los análisis anteriores, junto con la opción de ejecutar un nuevo análisis.
 
    ![](assets/home.png)
 
