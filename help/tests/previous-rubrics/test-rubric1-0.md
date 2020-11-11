@@ -1,14 +1,14 @@
 ---
-description: información sobre las pruebas de Adobe Auditor
-seo-description: información sobre las pruebas de Adobe Auditor
+description: información sobre las pruebas de Adobe Experience Platform Auditor
+seo-description: información sobre las pruebas de Adobe Experience Platform Auditor
 seo-title: Prueba de implementación 0.0.8
 title: Prueba de implementación 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '2008'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## Alertas {#alerts}
 
-Esta referencia proporciona más información sobre las alertas que Auditor muestra para las pruebas.
+Esta referencia proporciona más información sobre las alertas que Adobe Experience Platform Auditor muestra para las pruebas.
 
 Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no afecta a la puntuación.
 
@@ -39,7 +39,7 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud: Se ha implementado la etiqueta de conversión correcta</b> </p> <p>Peso: 0 </p> </td> 
     <td colname="col2"> <p>Compruebe si se utiliza la etiqueta de conversión correcta. </p> <p> <p>Advertencia: El uso de etiquetas de conversión TubeMogul obsoletas puede causar la pérdida de datos. </p> </p> </td> 
-    <td colname="col3"> <p>Actualice los píxeles de conversión a las nuevas etiquetas de conversión solo de imagen de Advertising Cloud. </p> <p>Esto puede realizarse fácilmente con la extensión de Launch de Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p>Actualice los píxeles de conversión a las nuevas etiquetas de conversión solo de imagen de Advertising Cloud. </p> <p>Esto se puede lograr fácilmente con la extensión Advertising Cloud para Adobe Experience Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud: Etiqueta de solo imagen</b> </p> <p>Peso: 0 </p> </td> 
@@ -49,12 +49,12 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>Actualice los píxeles de Advertising Cloud con las nuevas etiquetas de solo imagen de Advertising Cloud para garantizar que dispone de toda la funcionalidad de Advertising Cloud. </p> <p>Esto puede realizarse fácilmente con la extensión de Launch de Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p>Actualice los píxeles de Advertising Cloud con las nuevas etiquetas de solo imagen de Advertising Cloud para garantizar que dispone de toda la funcionalidad de Advertising Cloud. </p> <p>Esto se puede lograr fácilmente con la extensión Advertising Cloud para Launch de plataforma. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud: píxeles de segmento: sincronización DSP habilitada</b> </p> <p>Peso: 0 </p> </td> 
     <td colname="col2"> <p>Compruebe si el píxel del segmento TubeMogul contiene un ajuste de sincronización de DSP y recomiende que el ajuste se añada al píxel. </p> <p>La configuración de sincronización de DSP se determina por el uso de un parámetro de cadena de consulta, por lo que </p> <p>SI la etiqueta se está activando en<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> O <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> O <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>Y la etiqueta contiene el parámetro de URL <span class="codeph"> "sid=")</span> </p> <p>ENTONCES, compruebe si existe el parámetro de URL <span class="codeph"> "cs=0"</span> o<span class="codeph"> "cs=1"</span> y, en caso contrario, recomiende que <span class="codeph"> "cs=1"</span> se añada a esos píxeles para que mejoren los índices de coincidencia de audiencia. </p> </td> 
-    <td colname="col3"> <p> Añada el parámetro de URL <span class="codeph"> "cs=1"</span> a los píxeles de Advertising Cloud para que se sincronice con DSP, lo que aumenta los índices de coincidencia de audiencia. </p> <p>Esto se puede realizar fácilmente con la extensión de Advertising Cloud Launch. </p> </td> 
+    <td colname="col3"> <p> Añada el parámetro de URL <span class="codeph"> "cs=1"</span> a los píxeles de Advertising Cloud para que se sincronice con DSP, lo que aumenta los índices de coincidencia de audiencia. </p> <p>Esto se puede lograr fácilmente con la extensión Advertising Cloud para Launch de plataforma. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM: colocación de la llamada de retorno pageBottom</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Más información</a> </p> 
@@ -81,9 +81,9 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
 
 ## Configuración {#configuration}
 
-Esta referencia proporciona más información sobre las pruebas que realiza Auditor para la configuración.
+Esta referencia proporciona más información sobre las pruebas que realiza el Auditor de plataforma para la configuración.
 
-Auditor evalúa las etiquetas comparándolas con otras normas y prácticas recomendadas.
+El Auditor de plataforma evalúa las etiquetas comparándolas con otras reglas y optimizaciones recomendadas.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -161,9 +161,9 @@ Auditor evalúa las etiquetas comparándolas con otras normas y prácticas recom
 
 ## Coherencia de etiquetas {#tag-consistency}
 
-Esta referencia proporciona más información sobre las pruebas que realiza Auditor para mantener la coherencia de las etiquetas.
+Esta referencia proporciona más información sobre las pruebas que realiza el Auditor de plataforma para mantener la coherencia de etiquetas.
 
-Auditor comprueba que las etiquetas son coherentes en todas las direcciones URL.
+El Auditor de plataforma evalúa si las etiquetas son coherentes en todas las direcciones URL.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -186,9 +186,9 @@ Auditor comprueba que las etiquetas son coherentes en todas las direcciones URL.
 
 ## Presencia de etiquetas {#tag-presence}
 
-Esta referencia proporciona más información sobre las pruebas que realiza Auditor para detectar la presencia de etiquetas.
+Esta referencia proporciona más información sobre las pruebas que realiza el Auditor de plataforma para la presencia de etiquetas.
 
-Auditor comprueba si existe la etiqueta, si está en el lugar correcto en el código de la página, etc.
+Platform Auditor evalúa si la etiqueta existe, si está en el lugar correcto en el código de la página, etc.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -202,15 +202,15 @@ Auditor comprueba si existe la etiqueta, si está en el lugar correcto en el có
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud: Presencia de código</b> </p> <p>Peso: 5 </p> </td> 
     <td colname="col2"> <p> La etiqueta de Advertising Cloud no está disponible en el DOM. </p> </td> 
-    <td colname="col3"> <p>Aplique la etiqueta de Advertising Cloud mediante la extensión de Launch de Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p>Implemente la etiqueta Advertising Cloud con la extensión Advertising Cloud para Launch de plataforma. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud: Píxel de segmento implementado</b> </p> <p>Peso: 5 </p> </td> 
     <td colname="col2"> <p> Actualice los píxeles del segmento de Advertising Cloud con las nuevas etiquetas de solo imagen de Advertising Cloud. El uso de etiquetas de segmento AMO no soportadas puede causar la pérdida de datos. </p> </td> 
-    <td colname="col3"> <p>Implemente el píxel del segmento de Advertising Cloud con la extensión de Launch de Advertising Cloud. </p> </td> 
+    <td colname="col3"> <p>Implemente el píxel del segmento de Advertising Cloud con la extensión Advertising Cloud para Launch de plataforma. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics: Cargado en DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html" format="https" scope="external"> Más información</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics: cargado en DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html" format="https" scope="external"> Más información</a> </p> </td> 
     <td colname="col2"> <p> No se ha detectado la etiqueta de Adobe Analytics. </p> </td> 
     <td colname="col3"> <p>Instale la última versión de Analytics. </p> </td> 
    </tr> 
