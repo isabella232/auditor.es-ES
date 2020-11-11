@@ -1,23 +1,23 @@
 ---
-description: Esta referencia proporciona más información sobre las pruebas que realiza Auditor para mantener la coherencia de las etiquetas.
-seo-description: Esta referencia proporciona más información sobre las pruebas que realiza Auditor para mantener la coherencia de las etiquetas.
+description: Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para mantener la coherencia de las etiquetas.
+seo-description: Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para mantener la coherencia de las etiquetas.
 seo-title: Coherencia de etiquetas
 title: Coherencia de etiquetas
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 52%
 
 ---
 
 
 # Coherencia de etiquetas
 
-Esta referencia proporciona más información sobre las pruebas que realiza Auditor para mantener la coherencia de las etiquetas.
+Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para mantener la coherencia de las etiquetas.
 
-Las pruebas de coherencia de Auditor buscan incoherencias en todas las páginas digitalizadas. Son valores o configuraciones que deben ser iguales en todas las páginas del sitio para garantizar una recopilación de datos precisa.
+Las pruebas de coherencia de Platform Auditor buscan incoherencias en todas las páginas digitalizadas. Son valores o configuraciones que deben ser iguales en todas las páginas del sitio para garantizar una recopilación de datos precisa.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
