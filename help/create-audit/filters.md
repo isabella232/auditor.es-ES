@@ -4,11 +4,11 @@ seo-description: Los filtros de inclusión limitan los enlaces que puede rastrea
 seo-title: Incluir y Excluir filtros
 title: Incluir y Excluir filtros
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ Los filtros de inclusión y exclusión proporcionan directrices para las auditor
 
 Si se aplican filtros de inclusión, filtros de exclusión o una combinación de ambos, se ofrecen instrucciones sobre los enlaces que puede rastrear una auditoría.
 
-Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
+Cualquier elemento del [!UICONTROL filtro de inclusión] limita la exploración únicamente a las páginas que coincidan con ese elemento. Cualquier elemento del [!UICONTROL filtro de exclusión] evita que se digitalice cualquier página que coincida con ese elemento.
 
 Los filtros de inclusión y exclusión pueden ser direcciones URL completas, direcciones URL parciales o expresiones regulares que coincidan con una página válida.
 
 ## Orden de precedencia {#section-e9d42419dd3f459bb20e7a33c6104f12}
 
-1. **La dirección URL** de inicio tiene prioridad sobre el resto y siempre se visita durante una auditoría, incluso si una dirección URL coincide con un elemento de los filtros de exclusión. La dirección URL de inicio siempre se visita antes que cualquier otra dirección URL.
+1. **La dirección URL de inicio** tiene prioridad sobre el resto y siempre se visita durante una auditoría, incluso si una dirección URL coincide con un elemento de los filtros de exclusión. La dirección URL de inicio siempre se visita antes que cualquier otra dirección URL.
 
    ![](assets/startingpage.png)
 
@@ -53,7 +53,7 @@ Los filtros de inclusión y exclusión pueden ser direcciones URL completas, dir
 
 ## Dirección URL de inicio {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Adobe Experience Platform Auditor requiere una sola página para la dirección URL de inicio. La dirección URL de inicio siempre se visita antes que cualquier otra dirección URL. Los vínculos descubiertos desde la página de inicio pueden visitarse, según los filtros de inclusión y exclusión. Si un elemento de exclusión coincide con una dirección URL de inicio, se omitirá.
+Adobe Experience Platform Auditor necesita una sola página para la dirección URL de inicio. La dirección URL de inicio siempre se visita antes que cualquier otra dirección URL. Los vínculos descubiertos desde la página de inicio pueden visitarse, según los filtros de inclusión y exclusión. Si un elemento de exclusión coincide con una dirección URL de inicio, se omitirá.
 
 ## Filtros de inclusión {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,7 +76,7 @@ Por defecto, una auditoría analiza todos los subdominios de la dirección URL i
 
 Esto permite que pueda visitarse cualquier vínculo encontrado en la página de la URL de inicio. Coincide con cualquier página de cualquier subdominio desde la dirección URL de inicio.
 
-El uso del filtro de inclusión predeterminado ofrece un intervalo amplio para que la auditoría rastree. Para acceder a ciertas secciones o páginas, dé instrucciones específicas para la auditoría añadiendo filtros en este cuadro. En ese caso, reemplace el valor predeterminado por los directorios que desea que analice la auditoría. También puede utilizar Incluir filtros para realizar auditorías entre dominios donde necesite realizar inicios de auditoría en un dominio y finalizar en otro. Para ello, escriba los dominios que desea recorrer. En cualquier caso, para que se puedan encontrar las direcciones URL de filtro de inclusión, deben descubrirse en una página auditada.
+El uso del filtro de inclusión predeterminado ofrece un intervalo amplio para que la auditoría rastree. Para acceder a ciertas secciones o páginas, dé instrucciones específicas para la auditoría añadiendo filtros en este cuadro. En ese caso, reemplace el valor predeterminado por los directorios que desea que analice la auditoría. También puede utilizar filtros de inclusión para realizar auditorías entre dominios donde quiera iniciar la auditoría en un dominio y finalizarla en otro. Para ello, escriba los dominios que desea recorrer. En cualquier caso, para encontrar cualquier URL del filtro de inclusión, deben descubrirse en una página auditada.
 
 Los filtros de inclusión pueden contener direcciones URL exactas, direcciones URL parciales o expresiones regulares. Por ejemplo, si la dirección URL inicial es [!DNL http://mysite.com], las siguientes páginas pueden explorarse por defecto (observe los caracteres en negrita):
 
@@ -100,7 +100,7 @@ Los filtros de exclusión impiden que se auditen las direcciones URL. Puede util
 
 ## Prueba de filtros y direcciones URL {#section-3cfa125b1756411395a64701e128efa0}
 
-Puede probar sus filtros y direcciones URL dentro de Platform Auditor.
+Puede probar los filtros y las direcciones URL en Platform Auditor.
 
 Durante la creación de la auditoría, haga clic en **[!UICONTROL Test Advanced Filters]**. Introduzca los filtros y las direcciones URL y haga clic en **[!UICONTROL Apply]**.
 
