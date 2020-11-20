@@ -4,11 +4,11 @@ seo-description: Introducción a Adobe Experience Platform Auditor
 seo-title: Primeros pasos
 title: Primeros pasos
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 64%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] se ha desarrollado como un esfuerzo de cooperación entre [!DNL Adobe] y [!DNL ObservePoint]. Los usuarios de Platform Auditor pueden utilizar la funcionalidad de ObservePoint limitada sin costo adicional. Para utilizar Platform Auditor, debe optar por las comunicaciones de ObservePoint.
+La primera vez que utilice [!DNL Adobe Experience Platform Auditor], debe rellenar y aceptar el acuerdo de [!DNL Platform Auditor]. [!DNL Platform Auditor] es una solución desarrollada conjuntamente entre [!DNL Adobe] y [!DNL ObservePoint]. Los usuarios de Platform Auditor pueden utilizar la funcionalidad de ObservePoint limitada gratuitamente. Para utilizar Platform Auditor, debe registrarse en las comunicaciones de ObservePoint.
 
 ## Realización del primer análisis {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ The first time you use [!DNL Adobe Experience Platform Auditor], you must comple
 
    ![](assets/activate.png)
 
-1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
+1. Seleccione **[!UICONTROL Auditor]** y acepte las Condiciones de uso.
 
-   La página Auditor de plataforma le proporciona un panel de los análisis anteriores, junto con la opción de ejecutar un nuevo análisis.
+   La página de Platform Auditor le ofrece un tablero de análisis anteriores, junto con la opción de realizar un nuevo análisis.
 
    ![](assets/home.png)
 
