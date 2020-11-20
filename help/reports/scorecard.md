@@ -4,11 +4,11 @@ seo-description: Después de realizar una prueba, el informe de valoración mues
 seo-title: Informe de valoración
 title: Informe de valoración
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 Después de realizar una prueba, el informe de valoración muestra información sobre la auditoría.
 
-Haga clic en el nombre de la auditoría en la página Auditor de Adobe Experience Platform para vista de los resultados de la prueba.
+Para ver los resultados de la prueba, haga clic en el nombre de la auditoría en la página de Adobe Experience Platform Auditor.
 
 ![](assets/report.png)
 
@@ -50,7 +50,7 @@ El informe de valoración especifica los problemas de nivel 4 o 5 como correccio
 
 El informe de valoración especifica los problemas de nivel 1 a 3 como correcciones **recomendadas**.
 
-Haga clic en **[!UICONTROL Descargar el informe]** para descargar un archivo o PDF con la información obtenida en la auditoría.[!DNL Excel]
+Haga clic en **[!UICONTROL Descargar el informe]** para descargar un archivo de [!DNL Excel] o PDF con la información obtenida en la auditoría.
 
 Además de la puntuación de cada categoría, el informe de valoración especifica las correcciones recomendadas o necesarias, así como los elementos que han superado la prueba. En el cuadro de la derecha, haga clic en cada número para ver más detalles. Vuelva a hacer clic para estudiarlo en profundidad y ver las recomendaciones para solucionar el problema. A continuación, se muestran los detalles de un problema de Solución recomendada en el informe de valoración anterior:
 
@@ -62,4 +62,4 @@ Para ver los problemas detectados en cada categoría, haga clic en las categorí
 
 Puede ver las listas de direcciones URL que han superado o suspendido la prueba.
 
-From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. Muestra los detalles de las pruebas. En cada prueba puede ver la descripción de la misma y una lista de todas las direcciones URL que han aprobado o suspendido. Esta información también se incluye en los informes descargados.
+En el informe de valoración, haga clic en un nombre de prueba o en el enlace **[!UICONTROL Ver todo]** debajo de cada título de categoría. Muestra los detalles de las pruebas. En cada prueba puede ver la descripción de la misma y una lista de todas las direcciones URL que han aprobado o suspendido. Esta información también se incluye en los informes descargados.
