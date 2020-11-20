@@ -1,23 +1,23 @@
 ---
-description: Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para la presencia de etiquetas.
-seo-description: Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para la presencia de etiquetas.
+description: Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para mantener la presencia de las etiquetas.
+seo-description: Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para mantener la presencia de las etiquetas.
 seo-title: Presencia de etiquetas
 title: Presencia de etiquetas
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Presencia de etiquetas
 
-Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para la presencia de etiquetas.
+Esta referencia proporciona más información sobre las pruebas que realiza Adobe Experience Platform Auditor para mantener la presencia de las etiquetas.
 
-El Auditor de plataforma evalúa si la etiqueta existe y si está en el lugar correcto en el código de la página.
+Platform Auditor evalúa si la etiqueta existe y si está en el lugar correcto en el código de la página.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -36,7 +36,7 @@ El Auditor de plataforma evalúa si la etiqueta existe y si está en el lugar co
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud: Píxel de segmento implementado</b> </p> <p>Peso: 5 </p> </td> 
    <td colname="col2"> <p> Actualice los píxeles del segmento de Advertising Cloud con las nuevas etiquetas de solo imagen de Advertising Cloud. El uso de etiquetas de segmento AMO no soportadas puede causar la pérdida de datos. </p> </td> 
-   <td colname="col3"> <p>Implemente el píxel del segmento de Advertising Cloud con la extensión Advertising Cloud para Launch de plataforma. </p> </td> 
+   <td colname="col3"> <p>Implemente el píxel del segmento de Advertising Cloud con la extensión de Advertising Cloud para Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics: cargado en DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html" format="https" scope="external"> Más información</a> </p> </td> 
@@ -96,15 +96,15 @@ El Auditor de plataforma evalúa si la etiqueta existe y si está en el lugar co
     <!--
       1.0.5 
     --> <p><b> Launch: biblioteca cargada</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Más información</a> </p> </td> 
-   <td colname="col2"> <p> No se ha encontrado un objeto _satellite global en el DOM. El lanzamiento de plataforma no está instalado o no se puede ejecutar. </p> </td> 
-   <td colname="col3"> <p>Compruebe que la biblioteca de inicio de plataforma está implementada en la página y que no está bloqueada por actividades de script posteriores. </p> </td> 
+   <td colname="col2"> <p> No se ha encontrado un objeto _satellite global en el DOM. Platform Launch no está instalado o no se puede ejecutar. </p> </td> 
+   <td colname="col3"> <p>Compruebe que la biblioteca de Platform Launch está aplicada en la página y que no está bloqueada por las actividades de script posteriores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch: no hay varios scripts incrustados</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Más información</a> </p> </td> 
-   <td colname="col2"> <p>No debe haber varios scripts incrustados cargados en la página. Los sitios de producción solo deben cargar una biblioteca de inicio de plataforma. </p> </td> 
+   <td colname="col2"> <p>No debe haber varios scripts incrustados cargados en la página. Los sitios de producción solo deben cargar una biblioteca de Platform Launch. </p> </td> 
    <td colname="col3"> <p>Compruebe que solo se está cargando la biblioteca de producción en la página. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ El Auditor de plataforma evalúa si la etiqueta existe y si está en el lugar co
     <!--
       1.0.5 
     --> <p><b>Launch: la llamada de retorno pageBottom se encuentra en &lt;body&gt;</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Más información</a> </p> </td> 
-   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>Esta prueba falla si no se encuentra la <span class="codeph"> llamada pageBottom en la </span>página o si está en la etiqueta <span class="codeph"> &lt;head&gt;</span> (o en otra ubicación inesperada). Solo funcionará correctamente si <span class="codeph"> pageBottom</span> se encuentra en algún lugar dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>. Si no está en la página, no funcionará y las otras dos pruebas <span class="codeph"> pageBottom</span> también fallarán. </p> </td> 
-   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p> La llamada de retorno<span class="codeph"> _satellite.pageBottom()</span> no se ha encontrado en el <span class="codeph"> &lt;body&gt;</span> de la página, que exige Platform Launch. </p> <p>Esta prueba falla si no se encuentra la <span class="codeph"> llamada pageBottom en la </span>página o si está en la etiqueta <span class="codeph"> &lt;head&gt;</span> (o en otra ubicación inesperada). Solo funcionará correctamente si <span class="codeph"> pageBottom</span> se encuentra en algún lugar dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>. Si no está en la página, no funcionará y las otras dos pruebas <span class="codeph"> pageBottom</span> también fallarán. </p> </td> 
+   <td colname="col3"> <p>Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta de cierre <span class="codeph"> &lt;/body&gt;</span> para garantizar la correcta funcionalidad de Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch: la llamada de retorno pageBottom no debe existir cuando se aplica de forma asincrónica</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/es-ES/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Más información</a> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
-   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p>La llamada de retorno <span class="codeph"> _satellite.pageBottom()</span> se ha encontrado en la página, cosa que no debería suceder cuando Platform Launch se aplica de forma asíncrona. </p> </td> 
+   <td colname="col3"> <p>Elimine el script <span class="codeph">_satellite.pageBottom()</span> para habilitar la correcta funcionalidad de Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
