@@ -4,14 +4,14 @@ seo-description: Preguntas y respuestas comunes sobre Adobe Experience Platform 
 seo-title: Preguntas frecuentes sobre Adobe Experience Platform Auditor
 title: Preguntas frecuentes sobre Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 75ab4497-5822-4f64-9b6d-6cbf13687e8d
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
+source-wordcount: '990'
+ht-degree: 100%
 
 ---
-
 
 # Preguntas frecuentes sobre Adobe Experience Platform Auditor {#auditor-faq}
 
