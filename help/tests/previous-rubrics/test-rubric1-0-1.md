@@ -4,14 +4,14 @@ seo-description: información sobre las pruebas de Adobe Experience Platform Aud
 seo-title: Prueba de implementación 1.0.1
 title: Prueba de implementación 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
+source-wordcount: '2727'
+ht-degree: 100%
 
 ---
-
 
 # Prueba de implementación 1.0.1 {#test-rubric}
 
@@ -77,7 +77,7 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>Dynamic Tag Management (DTM) exige la función <span class="codeph"> _satellite.pageBottom()</span>. Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta body de cierre para garantizar la correcta funcionalidad de la DTM. </p> <p> <p>Nota: Se recomienda que la etiqueta sea la <i>última</i> etiqueta en el <span class="codeph"> &lt;body&gt;</span>. Si se encuentra dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>, puede funcionar, pero como no es una práctica recomendada, podría funcionar incorrectamente o dar resultados inesperados o no deseados. </p> </p> </td> 
+   <td colname="col2"> <p>Dynamic Tag Management (DTM) exige la función <span class="codeph">_satellite.pageBottom()</span>. Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta body de cierre para garantizar la correcta funcionalidad de la DTM. </p> <p> <p>Nota: Se recomienda que la etiqueta sea la <i>última</i> etiqueta en el <span class="codeph"> &lt;body&gt;</span>. Si se encuentra dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>, puede funcionar, pero como no es una práctica recomendada, podría funcionar incorrectamente o dar resultados inesperados o no deseados. </p> </p> </td> 
    <td colname="col3"> <p>Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta de cierre <span class="codeph"> &lt;/body&gt;</span> para garantizar la correcta funcionalidad de la DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -426,4 +426,3 @@ Platform Auditor evalúa si la etiqueta existe y si está en el lugar correcto e
   </tr> 
  </tbody> 
 </table>
-
