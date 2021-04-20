@@ -4,14 +4,14 @@ seo-description: La página Lista de auditoría muestra información sobre todas
 seo-title: Página Lista de auditoría
 title: Página Lista de auditoría
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
+source-wordcount: '230'
+ht-degree: 100%
 
 ---
-
 
 # Página Lista de auditoría {#audit-list-page}
 
