@@ -4,14 +4,14 @@ seo-description: Crear una nueva auditoría en Adobe Experience Platform Auditor
 seo-title: Crear una nueva auditoría en Adobe Experience Platform Auditor
 title: Crear una nueva auditoría en Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 1c4eed8e-4d49-49af-95c5-df13c9f13e4a
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
+source-wordcount: '517'
+ht-degree: 100%
 
 ---
-
 
 # Crear una nueva auditoría {#create-a-new-audit}
 
