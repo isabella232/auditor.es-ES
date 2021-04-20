@@ -4,14 +4,14 @@ seo-description: Esta referencia proporciona más información sobre las alertas
 seo-title: Alertas
 title: Alertas
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
+source-wordcount: '936'
+ht-degree: 100%
 
 ---
-
 
 # Alertas {#alerts}
 
@@ -73,7 +73,7 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>Dynamic Tag Management (DTM) exige la función <span class="codeph"> _satellite.pageBottom()</span>. Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta de cierre <span class="codeph"> &lt;/body&gt;</span> para garantizar la correcta funcionalidad de la DTM. </p> <p> <p>Nota: Se recomienda que la etiqueta sea la <i>última</i> etiqueta en el <span class="codeph"> &lt;body&gt;</span>. Si se encuentra dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>, puede funcionar, pero como no es una práctica recomendada, podría funcionar incorrectamente o dar resultados inesperados o no deseados. </p> </p> </td> 
+   <td colname="col2"> <p>Dynamic Tag Management (DTM) exige la función <span class="codeph">_satellite.pageBottom()</span>. Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta de cierre <span class="codeph"> &lt;/body&gt;</span> para garantizar la correcta funcionalidad de la DTM. </p> <p> <p>Nota: Se recomienda que la etiqueta sea la <i>última</i> etiqueta en el <span class="codeph"> &lt;body&gt;</span>. Si se encuentra dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>, puede funcionar, pero como no es una práctica recomendada, podría funcionar incorrectamente o dar resultados inesperados o no deseados. </p> </p> </td> 
    <td colname="col3"> <p>Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta de cierre <span class="codeph"> &lt;/body&gt;</span> para garantizar la correcta funcionalidad de la DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -129,4 +129,3 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
   </tr> 
  </tbody> 
 </table>
-
