@@ -4,14 +4,14 @@ seo-description: información sobre las pruebas de Adobe Experience Platform Aud
 seo-title: Prueba de implementación 0.0.8
 title: Prueba de implementación 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 0313e271-5664-4a34-9e3c-8cb1c61d8b93
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
+source-wordcount: '2008'
+ht-degree: 100%
 
 ---
-
 
 # Prueba de implementación 0.0.8 {#test-rubric}
 
@@ -61,7 +61,7 @@ Las alertas muestran los problemas que deben tenerse en cuenta, aunque eso no af
      <!--
        TEa9df69942f404055a64262889c8b21d3 
      --> </td> 
-    <td colname="col2"> <p> Dynamic Tag Management exige la función<span class="codeph"> _satellite.pageBottom()</span>. </p> <p>Se recomienda que la etiqueta sea la <i>última</i> etiqueta en el <span class="codeph"> &lt;body&gt;</span>. Si se encuentra dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>, puede funcionar, pero como no es una práctica recomendada, podría funcionar incorrectamente o dar resultados inesperados o no deseados. </p> </td> 
+    <td colname="col2"> <p> Dynamic Tag Management exige la función <span class="codeph">_satellite.pageBottom()</span>. </p> <p>Se recomienda que la etiqueta sea la <i>última</i> etiqueta en el <span class="codeph"> &lt;body&gt;</span>. Si se encuentra dentro de la etiqueta <span class="codeph"> &lt;body&gt;</span>, puede funcionar, pero como no es una práctica recomendada, podría funcionar incorrectamente o dar resultados inesperados o no deseados. </p> </td> 
     <td colname="col3"> <p>Añada la secuencia de comandos en línea inmediatamente antes de la etiqueta de cierre <span class="codeph"> &lt;/body&gt;</span> para garantizar la correcta funcionalidad de la DTM. </p> </td> 
    </tr> 
    <tr> 
