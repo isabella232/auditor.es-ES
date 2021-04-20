@@ -4,14 +4,14 @@ seo-description: Esta referencia proporciona más información sobre las pruebas
 seo-title: Coherencia de etiquetas
 title: Coherencia de etiquetas
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 681cf2f8-e022-4fb0-a06a-b4986710f501
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
+source-wordcount: '123'
+ht-degree: 100%
 
 ---
-
 
 # Coherencia de etiquetas
 
