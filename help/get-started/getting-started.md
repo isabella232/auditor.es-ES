@@ -1,19 +1,18 @@
 ---
 description: Introducción a Adobe Experience Platform Auditor
-seo-description: Introducción a Adobe Experience Platform Auditor
-seo-title: Primeros pasos
+seo-description: Get started with Adobe Experience Platform Auditor
+seo-title: Getting started
 title: Primeros pasos
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
 exl-id: 597413c9-8725-4745-bd89-cdc52848b0a0
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '243'
+workflow-type: tm+mt
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
 
-# Primeros pasos {#getting-started}
+# Primeros pasos{#getting-started}
 
 ## Primeros pasos {#task-1024e94b5948413295c9698e62165a04}
 

@@ -1,7 +1,6 @@
 ---
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-translation-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ para colaboradores firmado, que da permiso a Adobe para redistribuir las contrib
 
 ## Revisiones de código
 
-Todos los envíos deben ser solicitudes de extracción y deben revisarlos los supervisores del proyecto. Lea la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/es/github/collaborating-with-issues-and-pull-requests/about-pull-requests) para obtener más información sobre el envío de solicitudes de extracción.
+Todos los envíos deben ser solicitudes de extracción y deben revisarlos los supervisores del proyecto. Lea la [documentación de las solicitudes de extracción de GitHub](https://help.github.com/es/articles/about-pull-requests/) para obtener más información sobre el envío de solicitudes de extracción.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -40,4 +39,4 @@ submitting a pull request!
 
 ## Problemas de seguridad
 
-Los problemas de seguridad no deben enviarse a este rastreador de problemas. [Envíe el problema a nuestros expertos en seguridad](https://helpx.adobe.com/es/security/alertus.html)
+Los problemas de seguridad no deben enviarse a este rastreador de problemas. Envíe [el problema a nuestros expertos en seguridad](https://helpx.adobe.com/es/security/alertus.html)

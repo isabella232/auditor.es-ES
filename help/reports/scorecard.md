@@ -1,19 +1,18 @@
 ---
 description: Después de realizar una prueba, el informe de valoración muestra información sobre la auditoría.
-seo-description: Después de realizar una prueba, el informe de valoración muestra información sobre la auditoría.
-seo-title: Informe de valoración
+seo-description: After you run a test, the scorecard shows information about an audit.
+seo-title: Scorecard
 title: Informe de valoración
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
 exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '432'
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
 
-# Informe de valoración {#scorecard}
+# Informe de valoración{#scorecard}
 
 Después de realizar una prueba, el informe de valoración muestra información sobre la auditoría.
 
@@ -58,7 +57,7 @@ Además de la puntuación de cada categoría, el informe de valoración especifi
 
 Para ver los problemas detectados en cada categoría, haga clic en las categorías de la parte superior de la pantalla.
 
-## ¿Qué páginas formaban parte de la prueba? {#section-fd38ffeb868648e89c34c5772fa65f46}
+## ¿Qué páginas formaban parte de la prueba?  {#section-fd38ffeb868648e89c34c5772fa65f46}
 
 Puede ver las listas de direcciones URL que han superado o suspendido la prueba.
 

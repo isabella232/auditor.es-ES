@@ -1,19 +1,18 @@
 ---
 description: Esta referencia proporciona más información sobre las alertas que Adobe Experience Platform Auditor muestra para las pruebas.
-seo-description: Esta referencia proporciona más información sobre las alertas que Adobe Experience Platform Auditor muestra para las pruebas.
-seo-title: Alertas
+seo-description: This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
+seo-title: Alerts
 title: Alertas
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
 exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '936'
+workflow-type: tm+mt
+source-wordcount: '920'
 ht-degree: 100%
 
 ---
 
-# Alertas {#alerts}
+# Alertas{#alerts}
 
 Esta referencia proporciona más información sobre las alertas que Adobe Experience Platform Auditor muestra para las pruebas.
 
